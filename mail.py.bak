@@ -12,7 +12,7 @@ import email
 def read_email_from_gmail():
     try:
         mail = imaplib.IMAP4_SSL('imap.gmail.com')
-        mail.login('email_address','password')
+        mail.login('sujithdc@gmail.com','sujitheb111est')
         mail.select('inbox')
 
         type, data = mail.search(None, 'ALL')

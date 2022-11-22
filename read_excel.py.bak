@@ -7,7 +7,7 @@ input_total = 0
 output_total = 0
 
 # path to the file you want to extract data from
-src = r'd:\python\sample.xlsx'
+src = r'd:\test1\attachments\OCS 5.5 test numbers.xlsx'
 
 xl_file = pd.ExcelFile(src)
 
